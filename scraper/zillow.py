@@ -1367,12 +1367,12 @@ class MultiPropertyZillowScraper:
             df = pd.DataFrame(flattened_data)
             df.to_csv(csv_filename, index=False)
             
-            print(f"\n📁 All properties saved:")
+            print(f"\n All properties saved:")
             print(f"   • {json_filename} (structured)")
             print(f"   • {csv_filename} (flattened)")
             print(f"   • Total properties: {len(self.all_properties_data)}")
             
-            return json_filename, csv_filename  # ✅ Return both files
+            return json_filename, csv_filename  
         else:
             print("No properties data to save")
             return None, None
@@ -1394,4 +1394,5 @@ class MultiPropertyZillowScraper:
             else:
                 flattened[key] = value
         
+
         return flattened 
