@@ -19,4 +19,3 @@ Massachusetts housing price predictor and Recommender System From scratch.
 12. -> Integrating the recommender system with streamlit (video below) 
  
 https://github.com/user-attachments/assets/f6d4d986-bb48-43fd-b661-9c75c498d917
-
