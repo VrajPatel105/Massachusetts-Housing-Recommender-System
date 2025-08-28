@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon='🏠',
     layout='wide',
     initial_sidebar_state='collapsed'
-)
+)  
 
 st.markdown("""
 <style>
@@ -250,4 +250,5 @@ except Exception as e:
     """)
 
 st.markdown("---")
+
 st.markdown("*Vraj Patel*", unsafe_allow_html=True)
