@@ -5,7 +5,7 @@ Massachusetts housing price predictor and Recommender System From scratch.
 
  Here's the entire process that i followed.
 
-1. -> Scrape the data from zillow.com (only for educational purpose). This data had about 40 features when scraped
+1. -> Scrape the data from zillow.com (only for educational purpose). This data had about 40 features when scraped (data: https://www.kaggle.com/datasets/vraj105/massachusetts-housing-data) 
 2. -> Initial preprocessing
 3. -> proper data cleaning
 4. -> Exploratory Data Analysis : Univariate, Bivariate and multi-variate
