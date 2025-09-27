@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-st.set_page_config(
+st.set_page_config( 
     page_title='Massachusetts Housing Price Predictor',
     page_icon='🏠',
     layout='wide',
@@ -252,3 +252,4 @@ except Exception as e:
 st.markdown("---")
 
 st.markdown("*Vraj Patel*", unsafe_allow_html=True)
+
